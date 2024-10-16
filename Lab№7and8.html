@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSrackatan Original не хуже абибаса</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #4A154B;
+        color: white;
+    }
+    
+    header .logo {
+        font-size: 1.5rem;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .sign-in {
+        padding: 10px 20px;
+        background-color: white;
+        color: #4A154B;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    main {
+        padding: 40px;
+    }
+    
+    .hero {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    
+    .cta {
+        padding: 15px 30px;
+        background-color: #4A154B;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .hero-img {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+    }
+    
+    .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .feature-item {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .feature-item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    header .logo {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">VSrackatan</div>
+        <nav>
+            <ul>
+                <li><a href="#">Функции</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <button class="sign-in">Войти</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Добро пожаловать VSrackatan</h1>
+            <p>Легкое взаимодействие для вашей команды</p>
+            <button class="cta">Начать сейчас</button>
+        </section>
+        <section class="features">
+            <div class="feature-item">
+                <img src="https://media1.tenor.com/m/ScspryhQ3g4AAAAd/gachi-pool.gif" alt="Чат для команды">
+                <h2>Чат для команды</h2>
+                <p>Общайтесь с коллегами в реальном времени в удобных каналах.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://media1.tenor.com/m/5rA7_0SK3kgAAAAd/van-darkholme-gachimuchi.gif" alt="Интеграции">
+                <h2>Интеграции с сервисами</h2>
+                <p>Подключайте ваши любимые инструменты для продуктивной работы.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://media1.tenor.com/m/hOf4S6xHLR8AAAAC/neochen-gym.gif" alt="История сообщений">
+                <h2>История сообщений</h2>
+                <p>Найдите любое сообщение с мощной системой поиска.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://media1.tenor.com/m/8iMyvddJvmIAAAAd/gachimuchi-steve-rambo.gif" alt="Безопасность">
+                <h2>Безопасность и защита данных</h2>
+                <p>Ваши данные под надежной защитой.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
